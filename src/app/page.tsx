@@ -16,7 +16,7 @@ interface Report {
   size: number;
 }
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:9999";
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://fitness-app-backend-production-920e.up.railway.app";
 
 export default function Home() {
   const [messages, setMessages] = useState<Message[]>([]);
